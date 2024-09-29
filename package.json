@@ -1,21 +1,18 @@
 {
   "name": "@nousantx/tenoxui-react-styler",
   "description": "TenoxUI styler in ReactJS.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "NOuSantx <nousantx@gmail.com> (https://github.com/nousantx)",
   "license": "ISC",
   "type": "module",
   "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c"
   },
-  "keywords": [
-    "react",
-    "react-library",
-    "tenoxui"
-  ],
+  "keywords": ["react", "react-library", "tenoxui"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nousantx/tenoxui-react-styler.git"
@@ -24,11 +21,7 @@
     "url": "https://github.com/nousantx/tenoxui-react-styler/issues"
   },
   "homepage": "https://github.com/nousantx/tenoxui-react-styler#readme",
-  "files": [
-    "dist",
-    "README.md",
-    "package.json"
-  ],
+  "files": ["dist", "README.md", "package.json"],
   "peerDependencies": {
     "@tenoxui/core": "^1.0.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
